@@ -61,7 +61,7 @@ export function useMainContract() {
       return mainContract?.sendDeposit(sender, toNano(0.5))
     },
     sendWithdrawalRequest: () => {
-      return mainContract?.sendWithdrawalRequest(sender, toNano(0.05), toNano(0.2))
+      return mainContract?.sendWithdrawalRequest(sender, toNano(0.05), toNano(0.7))
     }
   };
 }
