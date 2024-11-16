@@ -25,7 +25,7 @@ function App() {
       <div>
         <div className='Card'>
           <b>Our contract Address</b>
-          <div className='Hint'>{contract_address}</div>
+          <div className='Hint'>{contract_address?.slice(0, 30) + "..."}</div>
           <b>Our contract Balance</b>
           <div className='Hint'>{fromNano(contract_balance)}</div>
         </div>
